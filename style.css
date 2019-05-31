@@ -1,0 +1,198 @@
+*{
+	padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font: 100 14px/1.5 OpenSans,arial,sans-serif;
+}
+header{
+	background-color: #DDDDDD;
+    margin: 0 0 70px;
+}
+.content h2{
+	font-size: 36px;
+    color: #fff;
+    margin: 0;
+    margin-right: 20px;
+
+}
+.content{
+	padding: 25px 0;
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto
+}
+input[name=w]{
+	width: 425px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, .75);
+    font-size: 18px;
+    margin: 0 25px 0 0;
+    padding: 0 15px;
+}
+button[name=s]{
+	display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    padding: 0 75px 0 25px;
+    font: 100 18px/48px OpenSans,arial,sans-serif;
+    color: #fff!important;
+    background: #cb1a2b;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-in 0s;
+}
+button[name=s]:after{
+	content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(img/button.png) no-repeat 50% 50% #ad1f2c;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+button[name=s]:hover{
+	background-color: #ad1f2c;
+
+}
+.instrument{
+	font-size: 36px;
+    margin: 0 0 50px;
+    padding: 0 100px 20px;
+    overflow: hidden;
+    margin: 0 auto 60px;
+}
+h2{
+	font-weight: 100;
+    line-height: 1.2;
+}
+.instrument ul {
+    float: left;
+    margin: 0 0 10px;
+}
+.instrument h2{
+	font-size: 36px;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.instrument ul li{
+	font-size: 18px;
+}
+ul{
+	list-style: none;
+}
+.instrument ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 330px;
+    color: black;
+}
+main{
+	    width: 1170px;
+}
+.instrument ul li.simple {
+    font-size: 24px;
+    margin: 45px 0 25px;
+}
+.instrument aside {
+    float: right;
+    width: 370px;
+    height: 440px;
+    background: url(img/ins.jpg);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .4);
+    position: relative;
+}
+.icon{
+	display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to top, #0083ca, #004b88);
+    margin: 0 15px 0 0;
+}
+a{
+	text-decoration: none;
+}
+.icon img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.instrument ul li {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+.instrument aside div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background: url(/local/templates/itelon_itc_main_new_18_02_19/css/../i/ins.png);
+    text-align: center;
+    padding: 40px 30px 0;
+}
+.instrument aside div .sh3 {
+    line-height: 29px;
+    display: block;
+}
+.instrument aside div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background: url(img/ins.png);
+    text-align: center;
+    padding: 40px 30px 0;
+}
+.instrument aside div p {
+    margin: .8em 0 0;
+}
+.instrument aside div h3, .instrument aside div .sh3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 35px;
+}
+p {
+    margin: 0 0 .5em;
+}
+.instrument aside div .sh4 {
+	font-size: 15px;
+    line-height: 25px;
+    display: block;
+}
+button[name=q]{
+	display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    padding: 0 75px 0 25px;
+    font: 100 18px/48px OpenSans,arial,sans-serif;
+    color: #fff!important;
+    background: #0083CA;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-in 0s;
+}
+button[name=q]:after{
+	content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(img/button.png) no-repeat 50% 50% #004B88;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+button[name=q]:hover{
+	background-color: #004B88;
+
+}
+
+/*Modal window*/
